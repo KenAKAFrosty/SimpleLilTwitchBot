@@ -1,0 +1,14 @@
+//basic TSconfig.json file:
+{
+  "compilerOptions": {
+    "lib": ["es2015", "dom", "ES2021"],
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./build",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
